@@ -2,7 +2,6 @@
 int main() {
 	char last_name[20];
 	printf ("Enter your last name: ");
-	// Originally scanf ("%s", last_name); // No limit
-	scanf ("%19s", last_name);  //Limits to 19
+	scanf ("%s", last_name);  //Needs to Limit to 19char - scanf ("%19s", last_name);
 	printf("Entered last name is %s\n", last_name);
 	}
