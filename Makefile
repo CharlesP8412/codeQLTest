@@ -1,2 +1,2 @@
 all:
-	gcc -o main pricing.c
+	gcc -o main exercise1_fileSize.c
